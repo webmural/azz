@@ -1,0 +1,48 @@
+:root {
+  transition: 360ms;
+  font: max(5ex, 5vmax)/1.618 fantasy;
+}
+
+.leak {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+:any-link {
+  transition: 180ms;
+  color: inherit;
+  text-decoration-style: wavy;
+}
+
+:focus {
+  text-decoration-style: solid;
+  outline: thick groove;
+}
+
+:hover {
+  text-decoration-style: double;
+}
+
+body {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  padding: 1em;
+  margin: auto;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin: auto;
+  min-height: 100vh;
+}
+
+p {
+  margin: auto;
+  min-height: 100vh;
+}

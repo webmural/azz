@@ -1,0 +1,30 @@
+::selection {
+  background: deepskyblue;
+  color: #101;
+}
+
+.azz {
+  color: #101;
+  background-color: peachpuff;
+  background-image: radial-gradient(
+    chocolate,
+    rosybrown,
+    plum,
+    sandybrown,
+    peachpuff
+  );
+}
+
+@media (prefers-color-scheme: dark) {
+  .azz {
+    color: linen;
+    background-color: darkmagenta;
+    background-image: radial-gradient(
+      maroon,
+      mediumvioletred,
+      purple,
+      darkorchid,
+      darkmagenta
+    );
+  }
+}
